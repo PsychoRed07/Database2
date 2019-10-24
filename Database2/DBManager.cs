@@ -11,6 +11,7 @@ namespace Database2
     {
         static void Main(string[] args)
         {
+            //main
             var prods = DB.GetProducts();
             DB.addProduct("BEAR", "12345");
             DB.updateProd(1, "OLED", "10010");
